@@ -1,0 +1,8 @@
+a = input('Digite qualquer coisa para análise: ')
+print('O que foi digitado são apenas letras?', a.isalpha())
+print('O que foi digitado são apenas números inteiros?', a.isnumeric())
+print('O que foi digitado são apenas letras e/ou números inteiros?', a.isalnum())
+print('O que foi digitado é composto apenas por letras MAIÚSCULAS?', a.isupper())
+print('O que foi digitado é composto apenas por letras minusculas?', a.islower())
+print('O que foi digitado é um número decimal?', a.isdecimal())
+print('O que foi digitado são apenas espaços?', a.isspace())
